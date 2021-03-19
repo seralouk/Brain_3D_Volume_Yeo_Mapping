@@ -39,7 +39,7 @@ names_7_nets = ['Visual', 'Somatomotor', 'Dorsal Attention',
 # https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4364170/ (Fig. 1)
 names_17_nets = ['Visual A', 'Visual B', 'Somatomotor A', 'Somatomotor B', 
 				 'Dorsal Attention A','Dorsal Attention B',   
-				 'VenAttn', 'Salience', 'Limbic (temp)', 'Limbic (OFC)',
+				 'VenAttn', 'Salience', 'Limbic A (temp)', 'Limbic B (OFC)',
 				 'Control C', 'Control A', 'Control B', 'Default D (Aud)', 'Default C',
 				 'Default A', 'Default B']
 
