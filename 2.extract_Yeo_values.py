@@ -113,7 +113,7 @@ sns.set_palette(colors_list)
 
 # The boxplots
 fig, axes = plt.subplots(1,1,figsize=(12,10))
-ax = sns.boxplot(data=results_7_nets_ordered, linewidth=3,showmeans=True,
+ax = sns.boxplot(data=results_7_nets_ordered, linewidth=3,showmeans=True, orient='h',
 				meanprops={"marker":"*","markerfacecolor":"white", "markeredgecolor":"blue"}, width=0.6, showfliers = show_outliers)
 # Select which box you want to change    
 #mybox = ax.artists[-1]
@@ -122,9 +122,9 @@ ax = sns.boxplot(data=results_7_nets_ordered, linewidth=3,showmeans=True,
 for b in range(len(ax.artists)):
 	ax.artists[b].set_edgecolor('black')
 #axes.set_ylim([-2,2])
-axes.set_xticklabels(names_7_nets_ordered)
-axes.set_ylabel("3D brain map values", size= 16)
-axes.set_xlabel("Yeo functional networks", labelpad=15, size= 16)
+axes.set_yticklabels(names_7_nets_ordered)
+axes.set_xlabel("3D brain map values", size= 16)
+axes.set_ylabel("Yeo functional networks", labelpad=15, size= 16)
 plt.title("Volume values for the Yeo 7 functional networks", size= 18)
 plt.xticks(fontsize= 10) 
 plt.yticks(fontsize= 10) 
@@ -195,7 +195,7 @@ sns.set_palette(colors_list)
 
 # The boxplots
 fig, axes = plt.subplots(1,1,figsize=(16,10))
-ax = sns.boxplot(data=results_17_nets_ordered, linewidth=3, showmeans=True,
+ax = sns.boxplot(data=results_17_nets_ordered, linewidth=3, showmeans=True, orient='h',
 				meanprops={"marker":"*","markerfacecolor":"white", "markeredgecolor":"blue"}, width=0.6, showfliers = show_outliers)
 # Select which box you want to change    
 #mybox = ax.artists[-1]
@@ -204,9 +204,9 @@ ax = sns.boxplot(data=results_17_nets_ordered, linewidth=3, showmeans=True,
 #*set edge color = black
 for b in range(len(ax.artists)):
 	ax.artists[b].set_edgecolor('black')
-axes.set_xticklabels(names_17_nets_ordered, rotation=30)
-axes.set_ylabel("3D brain map values", size= 16)
-axes.set_xlabel("Yeo functional networks", labelpad=15, size= 16)
+axes.set_yticklabels(names_17_nets_ordered, rotation=30)
+axes.set_xlabel("3D brain map values", size= 16)
+axes.set_ylabel("Yeo functional networks", labelpad=15, size= 16)
 plt.xticks(fontsize= 10) 
 plt.yticks(fontsize= 10) 
 plt.title("Volume values for the Yeo 17 functional networks", size= 18)
