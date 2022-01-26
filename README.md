@@ -1,7 +1,7 @@
 # Small toolbox to extract the values of a 3D brain volume for the 7 and 17 Yeo networks
 
 #### Code accompanying the Ph.D. disseration of Serafeim LOUKAS entitled: "Multivariate and predictive models for brain connectivity with application to neurodevelopment".
-#### URL: TBA, Thèse n. 8854 (EPFL, 2021)
+#### URL: https://infoscience.epfl.ch/record/285683?ln=en, Thèse n. 8854 (EPFL, 2021)
 
 #### `MapYeo2HCP.m`: Script to bring the several Yeo atlases to our functional space, then mask them using the global GM-mask to ensure fine-grained study-specific coverage
 
